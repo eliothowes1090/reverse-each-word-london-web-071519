@@ -4,5 +4,5 @@ def reverse_each_word(string)
   new_string.each do |word|
     final_string << word.reverse!
   end
-  return final_string
+  return final_string.to_s
 end
