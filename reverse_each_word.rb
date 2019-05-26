@@ -5,11 +5,11 @@
 #   return new_string.join(" ")
 # end
 
-def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
-end
+# def reverse_each_word(sentence)
+#   sentence.split.collect {|word| word.reverse}.join(" ")
+# end
 
-def reverse_each_word1(phrase)
+def reverse_each_word(phrase)
   phrase.split
   phrase.collect {|word| word.reverse}
   phrase.join(" ")
